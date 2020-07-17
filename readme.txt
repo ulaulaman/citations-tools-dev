@@ -1,8 +1,16 @@
-# Citations Tools Developer Edition
+=== Citations Tools  Developer Edition ===
+Contributors: ulaulaman
+Tags: doi, citations, research, blog, blogging, research blogging, arXiv
+Requires at least: 4.8.5
+Tested up to: 4.9.5
+Requires PHP: 7.0.18
+Stable tag: trunk
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Some tools for scientific and editorial bloggers.
 
-# Description
+== Description ==
 The plugin add a shortcode in order to link a paper using its doi code. You can also use an other shortcode to resolve doi code and publish a full citation apa formatted. It is also a shortcode for manual citations.
 
 ## Link doi
@@ -51,32 +59,24 @@ You can style citations adding in your css theme the class "paperdata".
 
 ***Citations tools*** uses the [CrossRef Metadata API](http://search.crossref.org/help/api) to retrieve complete publication information using the doi code as a search query. CrossRef is a part of the [doi system](https://dx.doi.org/).
 
-## Screenshot
-<div align="center"><img src="https://github.com/ulaulaman/citations-tools/blob/master/assets/screenshot-1.jpg?raw=true" /><br/>
-<em>The doi resolver: the shortcode (up) and the results (down)</em></div>
+== Screenshots ==
+1. The doi resolver: the shortcode (up) and the results (down)
 
-# Installation
+== Installation ==
 1.  Extract the citations-tools.zip file and upload its contents to the /wp-content/plugins/ directory. Alternately, you can install directly from the Plugin directory within your WordPress Install.
 2. Activate the plugin through the "Plugins" menu in WordPress.
 3. Use the shortcode into your posts or pages.
 
-# Changelog
+== Changelog ==
+* 0.3.2 add compatibility with Wordpress 4.9.5
 * 0.3.1 fix error in html script in [ctdoi] shortcode
 * 0.3 add shortcode for manual citations
 * 0.2.6.1 update readme.txt
 * 0.2.6 add archive.org link in doi resolver as shortcode's parameter
 * 0.2.5 fix error code
 * 0.2.4 changed functions names
-* 0.2.3 add pdf link in doi resolver as ahortcode's parameter
+* 0.2.3 add pdf link in doi resolver as shortcode's parameter
 * 0.2.2 add arXiv link in doi resolver as shortcode's parameter
 * 0.2.1 add doi link in doi resolver
 * 0.2 add shortcode to resolve doi using code
 * 0.1 shortcode for doi link
-
-## Roadmap
-* ~~add shortcode for manual citations (papers)~~
-* add shortcode for manual citations (books)
-* add arXiv resolver
-* add pubmed resolver
-* add info metabox to post
-* add shortcode buttons
