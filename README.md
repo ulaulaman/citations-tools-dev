@@ -75,8 +75,6 @@ You can style citations adding in your css theme the class "paperdata".
 
 ## Roadmap
 * ~~add shortcode for manual citations (papers)~~
+* add shortcode buttons for TynyMCE
+* verify compatibility with gutenberg
 * add shortcode for manual citations (books)
-* add arXiv resolver
-* add pubmed resolver
-* add info metabox to post
-* add shortcode buttons
