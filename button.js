@@ -163,13 +163,13 @@
                 if( params.length > 0 ) {
                   paramsString = ' ' + params.join(' ');
                 }
-                var returnText = '[ blockquote' + paramsString + ']' + selectedText + '[/blockquote ]';
+                var returnText = '[paperdata' + paramsString + ']';
                 ed.execCommand('mceInsertContent', 0, returnText);
               }
             });
           });
 
     });
-    
+
     tinymce.PluginManager.add( 'mytinymceplugin', tinymce.plugins.CitationsTools );
   })();
