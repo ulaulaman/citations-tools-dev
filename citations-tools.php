@@ -13,7 +13,7 @@ License: GPLv2 or later
 
 #plugin dir
 define( 'CT__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
-require_once( CT__PLUGIN_DIR . 'tinymce/button.php' );
+require_once( CT__PLUGIN_DIR . 'button.php' );
 
 # doi
 add_shortcode('ctdoi', 'ctdoi');
