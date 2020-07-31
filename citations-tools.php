@@ -12,8 +12,8 @@ License: GPLv2 or later
 # ---------------------------------------------------------
 
 #plugin dir
-#define( 'CT__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
-define( 'CT_PLUGIN_FILE', __FILE__ );
+define( 'CT__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
+#define( 'CT_PLUGIN_FILE', __FILE__ );
 require_once( CT_PLUGIN_FILE . 'button.php' );
 
 # doi
