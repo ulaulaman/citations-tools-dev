@@ -1,7 +1,7 @@
 <?php
 
 function tiny_mce_add_buttons( $plugins ) {
-    $plugins['mytinymceplugin'] = get_template_directory_uri() . '/button.js';
+    $plugins['mytinymceplugin'] = CT__PLUGIN_DIR . 'button.js';
     return $plugins;
   }
   
