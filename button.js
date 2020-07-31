@@ -1,7 +1,7 @@
 (function(){
     tinymce.create('tinymce.plugins.CitationsTools', {
     
-        init: function(ed, url){
+        init: function(_ed, _url){
   
         },
         getInfo: function() {
@@ -11,13 +11,13 @@
             authorurl: 'https://www.axosoft.com',
             version: "1.0"
           };
-        }
+        },
 
         ed.addButton('citationsbtn', {
             title: 'Insert Paper Citation',
             cmd: 'CitationsBtnCmd',
-            image: url + '/img/ct-icon.png'
-          });
+            image: `${url}/img/ct-icon.png`
+          }),
 
         ed.addCommand('CitationsBtnCmd', function(){
             var selectedText = ed.selection.getContent({format: 'html'});
@@ -167,7 +167,7 @@
                 ed.execCommand('mceInsertContent', 0, returnText);
               }
             });
-          });
+          }),
 
     });
 
