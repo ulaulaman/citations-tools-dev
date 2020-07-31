@@ -1,13 +1,13 @@
 <?php
 
 function tiny_mce_add_buttons( $plugins ) {
-    $plugins['mytinymceplugin'] = CT__PLUGIN_DIR . 'button.js';
+    $plugins['paperdata_plugin'] = plugin_dir_url( CT_PLUGIN_FILE ) . 'button.js';
     return $plugins;
   }
   
   function tiny_mce_register_buttons( $buttons ) {
     $newBtns = array(
-      'citationsbtn'
+      'paperdata_button'
     );
     $buttons = array_merge( $buttons, $newBtns );
     return $buttons;
