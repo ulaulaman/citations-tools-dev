@@ -1,7 +1,7 @@
 <?php
 
 function tiny_mce_add_buttons( $plugins ) {
-    $plugins['paperdata_plugin'] = CT__PLUGIN_DIR . 'button.js';
+    $plugins['paperdata_plugin'] = CT__PLUGIN_DIR . 'assets/js/button.js';
     return $plugins;
   }
   
